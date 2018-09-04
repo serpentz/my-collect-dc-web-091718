@@ -14,5 +14,6 @@ while counter<collection.length
   collection2.push(yield(language_proc(collection[counter])))
   counter+=1
 end
+collection2
 
 end
