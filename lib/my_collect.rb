@@ -7,5 +7,5 @@ str = collection[counter]
   collection2.push(yield(collection[counter]))
   counter+=1
 end
-collection
+collection.each { |word| word.upcase  }
 end
