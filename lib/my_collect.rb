@@ -2,7 +2,8 @@ def my_collect(collection)
 
 counter = 0
 while counter<collection.length
-  yield(collection[counter])
+str = collection[counter]
+  yield(str.upcase)
   counter+=1
 end
 collection
