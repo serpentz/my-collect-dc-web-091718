@@ -11,7 +11,7 @@ counter = 0
 collection2 = Array.new
 while counter<collection.length
 
-  collection2.push(language_proc(collection[counter]))
+  collection2.push(yield(language_proc(collection[counter])))
   counter+=1
 end
 
